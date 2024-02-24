@@ -1,0 +1,48 @@
+header {
+  background-color: darkorange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+input {
+  width: 400px;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+}
+#logo-container {
+  display: flex;
+  align-items: center;
+  width: 240px;
+  cursor: pointer;
+  gap: 10px;
+}
+#title {
+  color: darkblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+#input-container {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#buttons-container {
+  display: flex;
+  gap: 25px;
+  padding: 20px;
+  justify-content: center;
+}
+#ingresar {
+  color: darkblue;
+  text-decoration: none;
+}
+#registrate {
+  color: darkmagenta;
+  text-decoration: none;
+}
